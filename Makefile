@@ -3,6 +3,12 @@
 
 all: install_dependencies
 
+start_server:
+	node server.js
+
+start_client:
+	casperjs client.js
+
 install_dependencies: install_global_module
 	npm install
 
