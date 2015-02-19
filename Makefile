@@ -1,12 +1,12 @@
 .DEFAULT_TARGET: all
 .PHONY: all
 
-all: install_dependencies
+all: clean install_dependencies
 
 start_server:
 	node server.js
 
-start_client:
+start_client: clean
 	casperjs client.js
 
 install_dependencies: install_global_module
@@ -19,6 +19,7 @@ install_say_me:
 	npm install -g say-me
 
 clean:
+	rm -f example.png
 
 fullclean: clean
 	rm -rf ./node_modules
