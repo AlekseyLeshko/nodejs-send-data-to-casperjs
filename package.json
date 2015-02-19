@@ -1,0 +1,20 @@
+{
+  "name": "nodejs-send-data-to-casperjs",
+  "version": "0.0.1",
+  "description": "Data transfer between casperjs and nodejs",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AlekseyLeshko/nodejs-send-data-to-casperjs.git"
+  },
+  "keywords": [
+    "casperjs",
+    "nodejs",
+    "data transfer"
+  ],
+  "author": "Aleksey Leshko <alekseyleshko@gmail.com> (https://github.com/AlekseyLeshko)",
+  "bugs": {
+    "url": "https://github.com/AlekseyLeshko/nodejs-send-data-to-casperjs/issues"
+  },
+  "homepage": "https://github.com/AlekseyLeshko/nodejs-send-data-to-casperjs"
+}
